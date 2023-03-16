@@ -15,6 +15,7 @@ public class Main {
             array[n % 42] = 1;
         }
 
+        // 해당 배열을 사용해 서로 다른 나머지 개수 구하기
         for (int i : array) {
             if (i == 1) ++sum;
         }
