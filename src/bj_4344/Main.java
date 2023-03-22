@@ -19,7 +19,7 @@ public class Main {
                 sum += score;
             }
 
-            avg = sum / (double) array.length;
+            avg = sum / (double) N;
 
             for (Double d : array) {
                 if (d > avg) ++avgNum;
